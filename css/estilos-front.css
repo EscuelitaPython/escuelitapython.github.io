@@ -82,9 +82,11 @@
 #twtr-icon{background-color:var(--c1)}
 #fb-icon{background-color:var(--c3)}
 #insta-icon{background-color:var(--c2)}
+#yt-icon{background-color:#000000}
 #twtr-icon:hover{background-color:#1DA1F2}
 #fb-icon:hover{background-color:#1977F3}
 #insta-icon:hover{background-color:#d32d8e}
+#yt-icon:hover{background-color:#777777}
 
 @media screen and (max-width: 600px) {
 #prox article,#somos article{margin:20px 5px}
