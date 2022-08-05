@@ -1,0 +1,37 @@
+.bg-perspective{background-image:url(../img/persp-2p-b.png);background-size:contain;background-position:center bottom}
+.inset{padding:20px 10px;box-shadow:inset 2px 2px 7px -1px #0005;border-radius:10px;margin:7px}
+.contenedor{padding:85px 0 25px;display:flex;align-items:center;flex-direction:column;min-height:100vh;justify-content:space-around;border-bottom:5px solid var(--c2)}
+.caratula{padding:30px;border:1px solid #eee;box-shadow:0 0 50px 25px  #cff9;border-radius:10px;max-width:800px;background:radial-gradient(rgba(255,255,255,1)40%,rgba(255,255,255,0.7)100%)}
+.caratula h1{line-height:1.1em}
+.curso{padding:30px;margin:10px;border:2px solid var(--c2);max-width:800px;position:relative;border-radius:10px;box-shadow:0 0 50px 10px #cff9;background:rgba(255,255,255,.8)}
+.curso .icon{height:28px;font-size:16pt;position:relative;top:-2px;margin:2px;padding:3px;width:28px;border-radius:50%;text-align:center;vertical-align:middle;line-height:23px;box-shadow:inset 0 2px 2px 1px #2b436877;transition:all .3s}
+.curso svg.icon{padding:4px}
+.curso .icon{fill:var(--c3);color:var(--c3);background:#0002}
+.curso div:hover .icon,.curso li:hover .icon{fill:#fff;color:#fff;background:var(--c2)}
+.curso .has-icon:hover h3 .icon{fill:#fff;color:#fff;background:var(--c1)}
+.curso .flex article:first-child{padding:30px}
+.curso .flex ul{margin:5px 0 0 15px}
+.curso .flex li{margin:0 0 10px}
+.contenido-curso{padding:15px 20px 10px 30px;max-width:calc(100% - 242px);display:inline-block;min-height:360px}
+.curso aside{border-left:2px solid;background:#00000007;min-width:210px;min-height:360px}
+.curso hr{background:var(--c1);border-style:inset;height:3px}
+#mapa{margin-top:15px}
+#mapa iframe{border:2px solid;border-radius:10px;box-shadow:-4px -4px 10px 0 #fff,4px 4px 10px -5px #000}
+.w-half{width:50%}
+#contacto-icon{transition:transform 2s ease;transform-origin:50% 55.5%}
+#contacto-icon g{transition:transform 2s ease}
+#contacto-icon g:nth-child(1n){transform-origin:81.7% 73.6%}
+#contacto-icon g:nth-child(2n){transform-origin:18.3% 73.6%}
+#contacto-icon g:nth-child(3n){transform-origin:50% 18.76%}
+#contacto:hover #contacto-icon{transform:rotateZ(360deg)}
+#contacto:hover #contacto-icon g{transform:rotateZ(-360deg) scale(1.35)}
+@media screen and (max-width: 700px) {
+.curso{padding:10px}
+.contenido-curso{max-width:100%;display:block}
+.curso .flex{display:inline-block;width:calc(100% - 242px)}
+.curso .w-half{width:100%}
+}
+@media screen and (max-width: 560px) {
+.curso .flex{width:100%}
+.curso aside{width:100%}
+}
