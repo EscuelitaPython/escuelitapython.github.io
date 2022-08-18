@@ -69,7 +69,7 @@ html,body{height: 100%}
 html{scroll-behavior:smooth}
 body{font-family: var(--f2);color:var(--c3); font-size: 10pt;line-height:1.3em}
 body,h1,h2,h3,h4,h5,h6,ul,li{margin:0;padding:0 }
-a{text-decoration: none;cursor:pointer}
+a{text-decoration: none;cursor:pointer;*color: var(--c1)*}
 
 ::-moz-selection { color: var(--cf);  background: var(--c2) }
 ::selection{ color: var(--cf);  background: var(--c2)} 
